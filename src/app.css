@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Edwin";
+  src: url("assets/fonts/Edwin-Roman.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Edwin";
+  src: url("assets/fonts/Edwin-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Edwin";
+  src: url("assets/fonts/Edwin-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  font-family: "Edwin", "Times New Roman", Times, serif;
+}
