@@ -1,3 +1,15 @@
+:root {
+  --color-primary: #000000;
+  --color-secondary: #ffffff;
+  --color-hov: #dadada;
+}
+
+[data-theme="dark"] {
+  --color-primary: #ffffff;
+  --color-secondary: #000000;
+  --color-hov: #404040;
+}
+
 @font-face {
   font-family: "Edwin";
   src: url("assets/fonts/Edwin-Roman.otf") format("opentype");
@@ -21,4 +33,7 @@
 
 body {
   font-family: "Edwin", "Times New Roman", Times, serif;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  margin: 0;
 }
